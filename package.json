@@ -1,0 +1,27 @@
+{
+  "name": "books",
+  "version": "0.0.1",
+  "private": true,
+  "description": "New Swagger API Project",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "express": "^4.12.3",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "prebuild-install": "^5.3.0",
+    "serialport": "*",
+    "swagger-express-mw": "^0.1.0"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
